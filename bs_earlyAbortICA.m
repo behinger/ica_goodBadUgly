@@ -2,6 +2,7 @@ init_readica
 %%
 charLoop = 'B';
 k = 1;
+main_path = '/net/store/nbp/projects/EEG/blind_spot/data/';
 fp = fullfile(main_path,['VP' charLoop num2str(k)]);
 
 mod = loadmodout12(fullfile(fp,'amica','amicaRun','history','10'));

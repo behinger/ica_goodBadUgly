@@ -54,7 +54,7 @@ end
 
 %%
 for ica = 1:10
-    saveas(gcf,['/net/store/nbp/users/behinger/misc/blog/ica_goodbadugly/' num2str(ica)],'png')
+    saveas(gcf,['/net/store/nbp/users/behinger/misc/blog/ica_goodbadugly/bs_' num2str(ica)],'png')
     close(gcf)
 end
 

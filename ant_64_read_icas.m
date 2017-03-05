@@ -56,7 +56,7 @@ for ica = 1:length(icaList)
 end
 
 for ica = 1:length(icaList)
-    saveas(gcf,['/net/store/nbp/users/behinger/misc/blog/ica_goodbadugly/' num2str(ica)],'png')
+    saveas(gcf,['/net/store/nbp/users/behinger/misc/blog/ica_goodbadugly/ant_64_' num2str(ica)],'png')
     close(gcf)
 end
 
